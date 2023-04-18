@@ -28,7 +28,7 @@ h1
 .container
 {
 	max-width:1080px;
-	margin: 0 auto;
+	margin:0 auto;
 }
 
 /* Banner and logo */
@@ -50,4 +50,41 @@ h1
     height:80px;
     vertical-align:middle;
     padding-left:20px;
+}
+
+/* Task manager */
+
+.task-manager
+{
+    background-color:white;
+    height:50px;
+    line-height:50px;
+    margin-top:30px;
+    border-radius:5px 5px 0px 0px;
+}
+
+.button
+{
+    vertical-align:middle;
+    height:30px;
+    border-radius:5px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+
+.add-task
+{
+    background-color:#1e90ff;
+    color:white;
+    border:none;
+    margin-left:30px;
+}
+
+.add-section
+{
+    background-color:white;
+    color:gray;
+    border-width:1px;
+    border-color:gray;
 }
